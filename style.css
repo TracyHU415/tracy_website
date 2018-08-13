@@ -25,21 +25,39 @@
 }
 .column {
     flex: 50%;
+    /* width: 600px; */
     border: solid 5px red;
     margin-right: 40px;
 }
 .column1 {
     flex:50%;
+    /* width: 600px; */
     border: solid 5px red;
     margin-left: 40px;
 }
 .column2 {
     flex:50%;
+    /* width: 600px; */
     border: solid 5px red;
     margin-right: 40px;
 }
 .column3 {
-    flex:50%;
+    flex-basis:50%;
+    /* width: 600px; */
     border: solid 5px red;
     margin-left: 40px;
+}
+
+
+.pic {
+    float:left;
+    width:250px;}
+    
+.inTitle {
+    float:left;
+    width:250px;
+    /* margin-top: 80px; */
+}
+.button{
+    float: right;
 }
